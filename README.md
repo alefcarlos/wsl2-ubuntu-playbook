@@ -1,5 +1,7 @@
 # WSL2 Ubuntu Playbook
 
+![Ansible Lint](https://github.com/alefcarlos/wsl2-ubuntu-playbook/workflows/Ansible%20Lint/badge.svg)
+
 ## Instaling WS2
 
 Follow [this link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2) to install.

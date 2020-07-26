@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+apt install git ansible -y
+
 mkdir ~/git
 
 git clone http://github.com/alefcarlos/wsl2-ubuntu-playbook ~/git/wsl2-ubuntu-playbook/

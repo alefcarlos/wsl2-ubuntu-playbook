@@ -1,0 +1,7 @@
+---
+- name: Installing bat CLI
+  apt:
+    name: bat
+    state: present
+    update_cache: true
+  become: yes

@@ -10,13 +10,13 @@ Follow [this link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#up
 
 Install lastest [Windows Terminal](https://github.com/microsoft/terminal) version to enjoy all the amazing features
 
-## Fonts
+### Fonts
 
 I use [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fura%20Code%20Regular%20Nerd%20Font%20Complete.ttf) on  Windows Terminal configuration `profiles.defaults.fontFace`
 
 I can use `ligatures` using this font ;)
 
-## oh-my-posh
+### oh-my-posh
 
 Run `setup_wt.ps1` to setup oh-my-posh on Powershell, then configure PowerShell profile:
 
@@ -31,7 +31,7 @@ Import-Module oh-my-posh
 Set-Theme Zash
 ```
 
-## Installing
+## Running this playbook
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/alefcarlos/wsl2-ubuntu-playbook/master/boostrap)"

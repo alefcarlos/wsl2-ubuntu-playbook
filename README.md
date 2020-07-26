@@ -12,7 +12,24 @@ Install lastest [Windows Terminal](https://github.com/microsoft/terminal) versio
 
 ## Fonts
 
-I use `FiraCode Nerd Font` on  Windows Terminal configuration `profiles.defaults.fontFace`
+I use [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fura%20Code%20Regular%20Nerd%20Font%20Complete.ttf) on  Windows Terminal configuration `profiles.defaults.fontFace`
+
+I can use `ligatures` using this font ;)
+
+## oh-my-posh
+
+Run `setup_wt.ps1` to setup oh-my-posh on Powershell, then configure PowerShell profile:
+
+```powershell
+notepad $PROFILE
+```
+
+And add following content:
+```powershell
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme Zash
+```
 
 ## Installing
 

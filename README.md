@@ -17,7 +17,7 @@ I use `FiraCode Nerd Font` on  Windows Terminal configuration `profiles.defaults
 ## Installing
 
 ```
-sh -c "$(curl -fsSL https://raw.github.com/alefcarlos/wsl2-ubuntu-playbook/master/bootstrap)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/alefcarlos/wsl2-ubuntu-playbook/master/boostrap)"
 ```
 
 ## TODO:

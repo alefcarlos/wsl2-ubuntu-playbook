@@ -13,7 +13,7 @@
 
 - name: Installing Oh My ZSH
   shell: 'sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
-  when: result.stat.exists == false
+  when: result.stat is defined
 
 - name: Set ZSH as default shell
   user:

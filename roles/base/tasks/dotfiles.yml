@@ -21,4 +21,4 @@
     mode: 0755
 
 - name: Summoning ZSH dot-files
-  shell: 'sh /home/{{ user_name }}/git/summon/summon.sh /home/{{ user_name }}/git/dotfiles/common/zsh'
+  command: 'sh /home/{{ user_name }}/git/summon/summon.sh /home/{{ user_name }}/git/dotfiles/common/zsh'

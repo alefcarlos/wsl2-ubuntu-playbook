@@ -39,4 +39,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/alefcarlos/wsl2-ubuntu-pla
 
 ## TODO:
 
-- Ansible for setuping Windows WSL2 + Ubuntu
+- Ansible for setuping Windows Terminal + Windows WSL2 + Ubuntu

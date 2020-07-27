@@ -42,7 +42,7 @@ rm -rf ~/git/wsl2-ubuntu-playbook/
 git clone http://github.com/alefcarlos/wsl2-ubuntu-playbook ~/git/wsl2-ubuntu-playbook/
 
 cd ~/git/wsl2-ubuntu-playbook/
-ansible-playbook playbook.yml --extra-vars="user_name=${user_name}" --ask-become-pass
+ansible-playbook playbook.yml --extra-vars="user_name=$USER" --ask-become-pass
 ```
 
 ## TODO:

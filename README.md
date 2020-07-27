@@ -34,14 +34,7 @@ Set-Theme Zash
 ## Running this playbook
 
 ```
-sudo apt update -y && sudo apt install git ansible -y
-
-mkdir ~/git && git clone http://github.com/alefcarlos/wsl2-ubuntu-playbook ~/git/wsl2-ubuntu-playbook/
-
-cd ~/git/wsl2-ubuntu-playbook/ && /
-ansible-playbook playbook.yml --extra-vars="user_name=$USER" --ask-become-pass
-
-rm -rf ~/git/wsl2-ubuntu-playbook/
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/alefcarlos/wsl2-ubuntu-playbook/master/bootstrap)"
 ```
 
 ## TODO:

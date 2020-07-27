@@ -22,6 +22,3 @@
 
 - name: Summoning ZSH dotfiles
   command: 'sh /home/{{ user_name }}/git/summon/summon.sh /home/{{ user_name }}/git/dotfiles/common/zsh'
-
-- name: Summoning GIT dotfiles
-  command: 'sh /home/{{ user_name }}/git/summon/summon.sh /home/{{ user_name }}/git/dotfiles/common/git'

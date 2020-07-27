@@ -1,4 +1,11 @@
 ---
-- name: Installing ghq
-  go_get:
-    url: github.com/x-motemen/ghq
+- name: check go version
+  command: go version
+  register: result
+  changed_when: no
+  ignore_errors: true
+
+- name: go get ghq
+  shell: go get -u github.com/x-motemen/ghq
+  register: gogs
+  when: not result|failed

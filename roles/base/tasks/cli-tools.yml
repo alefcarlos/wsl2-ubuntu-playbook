@@ -16,9 +16,3 @@
     name: jq
     state: present
   become: yes
-
-- name: Installing ripgrep
-  package:
-    name: ripgrep
-    state: present
-  become: yes

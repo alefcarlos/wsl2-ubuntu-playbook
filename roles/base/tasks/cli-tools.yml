@@ -1,18 +1,21 @@
 ---
 - name: Installing bat
-  package:
+  apt:
     name: bat
     state: present
+    update_cache: true
   become: yes
 
 - name: Installing fzf
-  package:
+  apt:
     name: fzf
     state: present
+    update_cache: true
   become: yes
 
 - name: Installing jq
-  package:
+  apt:
     name: jq
     state: present
+    update_cache: true
   become: yes

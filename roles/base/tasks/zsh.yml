@@ -1,8 +1,9 @@
 ---
 - name: Installing ZSH
-  package:
+  apt:
     name: zsh
     state: present
+    update_cache: true
   become: true
 
 - name: Validate oh-my-zsh

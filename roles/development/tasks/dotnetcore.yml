@@ -1,12 +1,14 @@
 ---
 - name: add the Microsoft package signing key
-  package:
+  apt:
     deb: https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+    update_cache: true
   become: yes
 
 - name: Installing .NET Core SDK
-  package:
+  apt:
     name:
       - apt-transport-https
       - dotnet-sdk-3.1
+    update_cache: true
   become: yes

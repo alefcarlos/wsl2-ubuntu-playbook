@@ -1,5 +1,6 @@
 ---
 - name: Installing golang
-  package:
+  apt:
     name: golang-go
+    update_cache: true
   become: yes

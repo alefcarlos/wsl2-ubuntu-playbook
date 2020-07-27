@@ -1,6 +1,6 @@
 ---
 - name: Installing .NET Core SDK
-  apt:
+  package:
     name:
       - apt-transport-https
       - dotnet-sdk-3.1

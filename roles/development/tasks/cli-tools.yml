@@ -1,4 +1,4 @@
 ---
-go_get:
 - name: Installing ghq
-  url: github.com/x-motemen/ghq
+  go_get:
+    url: github.com/x-motemen/ghq

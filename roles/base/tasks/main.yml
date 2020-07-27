@@ -1,4 +1,4 @@
 ---
 - include: zsh.yml
-- include: bat.yml
-- include: dotfiles.yml
+- include: cli-tools.yml
+# - include: dotfiles.yml

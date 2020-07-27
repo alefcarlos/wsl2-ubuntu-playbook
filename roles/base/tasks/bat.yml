@@ -1,7 +1,0 @@
----
-- name: Installing bat CLI
-  package:
-    name: bat
-    state: present
-    update_cache: true
-  become: yes

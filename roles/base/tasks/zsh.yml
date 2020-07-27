@@ -3,7 +3,6 @@
   package:
     name: zsh
     state: present
-    update_cache: true
   become: true
 
 - name: Validate oh-my-zsh

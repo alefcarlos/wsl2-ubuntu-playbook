@@ -1,0 +1,24 @@
+---
+- name: Installing bat
+  package:
+    name: bat
+    state: present
+  become: yes
+
+- name: Installing fzf
+  package:
+    name: fzf
+    state: present
+  become: yes
+
+- name: Installing jq
+  package:
+    name: jq
+    state: present
+  become: yes
+
+- name: Installing ripgrep
+  package:
+    name: ripgrep
+    state: present
+  become: yes

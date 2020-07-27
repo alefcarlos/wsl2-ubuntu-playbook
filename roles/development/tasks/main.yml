@@ -1,3 +1,4 @@
 ---
 - include: golang.yml
 - include: dotnetcore.yml
+- include: cli-tools.yml

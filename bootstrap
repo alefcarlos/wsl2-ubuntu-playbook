@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+sudo apt update -y && sudo apt install git ansible -y
+
+ansible-galaxy install fubarhouse.golang
+
+rm -rf ~/git/wsl2-ubuntu-playbook/
+
+mkdir ~/git && git clone http://github.com/alefcarlos/wsl2-ubuntu-playbook ~/git/wsl2-ubuntu-playbook/
+
+cd ~/git/wsl2-ubuntu-playbook/
+
+read -p "Type the user name: " user_name
+
+ansible-playbook playbook.yml --extra-vars="user_name=${user_name}" --ask-become-pass

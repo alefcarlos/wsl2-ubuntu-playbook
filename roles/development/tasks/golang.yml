@@ -2,6 +2,4 @@
 - name: Installing golang
   package:
     name: golang-go
-    state: present
-    update_cache: true
   become: yes

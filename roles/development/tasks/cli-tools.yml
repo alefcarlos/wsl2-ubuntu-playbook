@@ -1,5 +1,5 @@
 ---
 - name: Go get ghq
-  shell: go get -u github.com/x-motemen/ghq
+  command: go get -u github.com/x-motemen/ghq
   check_mode: no
   changed_when: false

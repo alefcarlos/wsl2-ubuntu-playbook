@@ -11,7 +11,7 @@
     filename: kubernetes.list
 
 - name: Install Kubernetes binaries
-  apt: 
+  apt:
     name: kubectl
     state: present
     update_cache: yes

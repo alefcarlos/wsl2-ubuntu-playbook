@@ -1,4 +1,5 @@
 ---
 - include: golang.yml
 - include: dotnetcore.yml
+- include: kubectl.yml
 - include: cli-tools.yml
